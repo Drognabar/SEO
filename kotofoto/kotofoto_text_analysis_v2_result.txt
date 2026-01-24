@@ -1,0 +1,46 @@
+======================================================================
+               ОТЧЁТ АНАЛИЗА КАННИБАЛИЗАЦИИ
+======================================================================
+
+Дата анализа: 2026-01-20 22:50:53
+Входной файл: kotofoto_text_analysis.xlsx
+
+СТАТИСТИКА:
+----------------------------------------------------------------------
+Всего товаров: 249
+Найдено похожих пар (>60%): 67
+
+🟢 НОРМА (60-75%): 63 пар
+🟡 ОЧЕНЬ ПОХОЖИ (75-80%): 2 пар
+🔴 КАННИБАЛИЗАЦИЯ (>80%): 2 пар
+
+Средняя похожесть: 65.5%
+Макс похожесть: 100.0%
+
+ТОП-5 ДУБЛЕЙ:
+----------------------------------------------------------------------
+
+49. https://kotofoto.ru/moskva/shop/uid_633326_videokarta_biostar_rx6650xt_8gb_va6656tm81.html
+   ↔ https://kotofoto.ru/moskva/shop/uid_633326_videokarta_biostar_rx6650xt_8gb_va6656tm81.html
+   TF-IDF: 100.0% | Jaccard: 100.0%
+   Статус: 🔴 КАННИБАЛИЗАЦИЯ
+
+17. https://kotofoto.ru/moskva/shop/uid_585329_umnye_chasy_apple_watch_series_8_45mm_sport_m_l_mnuq3ll_a_starlight.html
+   ↔ https://kotofoto.ru/moskva/shop/uid_619621_umnye_chasy_apple_watch_series_8_45mm_m_l_mp6q3ll_a_silver.html
+   TF-IDF: 91.1% | Jaccard: 39.3%
+   Статус: 🔴 КАННИБАЛИЗАЦИЯ
+
+42. https://kotofoto.ru/moskva/shop/uid_466881_videokarta_gigabyte_gt_1030_2gb_gv_n1030d4_2gl.html
+   ↔ https://kotofoto.ru/moskva/shop/uid_253228_videokarta_palit_gt1030_2gd4_nec103000646_1082f.html
+   TF-IDF: 76.5% | Jaccard: 40.3%
+   Статус: 🟡 ОЧЕНЬ ПОХОЖИ
+
+64. https://kotofoto.ru/moskva/shop/uid_717799_videokarta_gigabyte_rtx5060ti_windforce_max_oc_16gb_gddr7_128bit_gv_n506twf2max_oc_16gd.html
+   ↔ https://kotofoto.ru/moskva/shop/uid_717800_videokarta_gigabyte_rtx5060ti_windforce_max_oc_8gb_gddr7_128bit_gv_n506twf2max_oc_8gd.html
+   TF-IDF: 75.0% | Jaccard: 26.8%
+   Статус: 🟡 ОЧЕНЬ ПОХОЖИ
+
+50. https://kotofoto.ru/moskva/shop/uid_633450_videokarta_asrock_radeon_rx_7600_challenger_8g_oc_rx7600_cl_8go.html
+   ↔ https://kotofoto.ru/moskva/shop/uid_638452_videokarta_asrock_radeon_rx_7600_steel_legend_8g_rx7600_sl_8go.html
+   TF-IDF: 72.1% | Jaccard: 28.6%
+   Статус: 🟢 НОРМА
